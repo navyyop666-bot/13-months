@@ -1,0 +1,2771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#12030e">
+    <title>Navu ❤️ Teena Ji | Happy 1st Year (12th Month) Long Distance Anniversary 3D World</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Dancing+Script:wght@600;700&family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        /* ==========================================================================
+           4D ROMANTIC THEME ENGINE (VELVET NIGHT NEON vs BLUSH PEARL DAY MODE)
+           ========================================================================== */
+        :root {
+            --bg-deep: #0f030c;
+            --bg-secondary: #1c0617;
+            --surface-bg: rgba(38, 9, 31, 0.78);
+            --surface-border: rgba(255, 77, 136, 0.35);
+            --surface-shine: rgba(255, 255, 255, 0.2);
+            --text-main: #fff5f8;
+            --text-muted: #f4b6c8;
+            --accent-rose: #ff2a75;
+            --accent-pink: #ff75a0;
+            --accent-gold: #fbbf24;
+            --accent-purple: #c084fc;
+            --shadow-color: rgba(0, 0, 0, 0.65);
+            --card-glow: 0 25px 60px rgba(255, 42, 117, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+            --nav-bg: rgba(15, 3, 12, 0.9);
+            --leather-dark: #3e1f14;
+            --leather-mid: #5c2c16;
+            --leather-light: #7c3f23;
+        }
+
+        body.day-mode {
+            --bg-deep: #fff5f8;
+            --bg-secondary: #ffe4ed;
+            --surface-bg: rgba(255, 255, 255, 0.88);
+            --surface-border: rgba(244, 63, 94, 0.3);
+            --surface-shine: rgba(255, 255, 255, 0.95);
+            --text-main: #3b071e;
+            --text-muted: #881337;
+            --accent-rose: #e11d48;
+            --accent-pink: #f43f5e;
+            --accent-gold: #d97706;
+            --accent-purple: #9333ea;
+            --shadow-color: rgba(136, 19, 55, 0.12);
+            --card-glow: 0 25px 50px rgba(225, 29, 72, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+            --nav-bg: rgba(255, 245, 248, 0.92);
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 85px;
+            overflow-x: hidden;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-deep);
+            color: var(--text-main);
+            overflow-x: hidden;
+            transition: background-color 0.5s ease, color 0.5s ease;
+            -webkit-font-smoothing: antialiased;
+            padding-bottom: 70px;
+        }
+
+        /* --- 3D HEART & SPARKLE CANVAS --- */
+        #love-canvas {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        /* --- AMBIENT ROMANTIC ORBS --- */
+        .ambient-orb {
+            position: fixed;
+            width: 600px; height: 600px;
+            border-radius: 50%;
+            z-index: -2;
+            pointer-events: none;
+            opacity: 0.32;
+            animation: floatOrb 12s infinite alternate ease-in-out;
+        }
+        .orb-1 {
+            background: radial-gradient(circle, var(--accent-rose) 0%, transparent 65%);
+            top: -200px; left: -200px;
+        }
+        .orb-2 {
+            background: radial-gradient(circle, var(--accent-purple) 0%, transparent 65%);
+            bottom: -200px; right: -200px;
+            animation-delay: -6s;
+        }
+        @keyframes floatOrb {
+            0% { transform: scale(1) translate3d(0, 0, 0); }
+            100% { transform: scale(1.2) translate3d(40px, 30px, 0); }
+        }
+
+        /* --- TYPOGRAPHY --- */
+        h1, h2, h3, h4 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+        }
+        .royal-title {
+            font-family: 'Cinzel Decorative', cursive;
+            font-weight: 900;
+        }
+        .script-font {
+            font-family: 'Dancing Script', cursive;
+        }
+        .gradient-love {
+            background: linear-gradient(135deg, var(--accent-rose), var(--accent-gold), var(--accent-purple), var(--accent-rose));
+            background-size: 250% auto;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shimmerText 6s linear infinite;
+        }
+        @keyframes shimmerText {
+            to { background-position: 250% center; }
+        }
+
+        /* --- STICKY GLASS NAVBAR --- */
+        .love-navbar {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 1000;
+            background: var(--nav-bg);
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--surface-border);
+            padding: 12px 4%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 10px 30px var(--shadow-color);
+        }
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text-main);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 1.25rem;
+        }
+        .brand-heart-badge {
+            width: 40px; height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-rose), var(--accent-purple));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.1rem;
+            box-shadow: 0 0 20px rgba(255, 42, 117, 0.5);
+            animation: heartbeat 1.6s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            15% { transform: scale(1.18); }
+            30% { transform: scale(0.95); }
+            45% { transform: scale(1.12); }
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 16px;
+            list-style: none;
+            align-items: center;
+        }
+        .nav-links a {
+            color: var(--text-main);
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: var(--accent-rose);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .circle-btn {
+            width: 42px; height: 42px;
+            border-radius: 50%;
+            border: 1px solid var(--surface-border);
+            background: var(--surface-bg);
+            color: var(--text-main);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 1.05rem;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), color 0.3s, background 0.3s;
+        }
+        .circle-btn:hover, .circle-btn.playing {
+            transform: scale(1.12);
+            color: #fff;
+            background: var(--accent-rose);
+        }
+
+        /* --- MOBILE QUICK DOCK --- */
+        .mobile-bottom-dock {
+            position: fixed;
+            bottom: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 999;
+            background: var(--nav-bg);
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--surface-border);
+            border-radius: 40px;
+            padding: 8px 16px;
+            display: none;
+            gap: 14px;
+            box-shadow: 0 12px 35px rgba(0,0,0,0.6);
+        }
+        .mobile-bottom-dock a {
+            color: var(--text-main);
+            font-size: 1.15rem;
+            padding: 6px 10px;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: background 0.3s, color 0.3s;
+        }
+        .mobile-bottom-dock a:hover {
+            background: var(--accent-rose);
+            color: #fff;
+        }
+
+        /* --- GLASS PANEL & 3D TILT CARD --- */
+        .glass-panel {
+            background: var(--surface-bg);
+            -webkit-backdrop-filter: blur(18px);
+            backdrop-filter: blur(18px);
+            border: 1px solid var(--surface-border);
+            border-radius: 28px;
+            box-shadow: 0 25px 50px var(--shadow-color), inset 0 1px 0 var(--surface-shine);
+            transition: border-color 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+        }
+        .tilt-card {
+            transform-style: preserve-3d;
+            will-change: transform;
+            transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+        }
+        .tilt-card:hover {
+            border-color: var(--accent-rose);
+            box-shadow: var(--card-glow);
+        }
+        .pop-z-1 { transform: translateZ(20px); }
+        .pop-z-2 { transform: translateZ(40px); }
+        .pop-z-3 { transform: translateZ(60px); }
+
+        /* --- BUTTONS --- */
+        .btn-love {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: linear-gradient(135deg, var(--accent-rose), #be123c);
+            color: #fff !important;
+            border: none;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.92rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 12px 30px rgba(255, 42, 117, 0.45);
+            transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease;
+        }
+        .btn-love:hover {
+            transform: translateY(-3px) scale(1.03);
+            box-shadow: 0 18px 40px rgba(255, 42, 117, 0.65);
+        }
+        .btn-love-outline {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: transparent;
+            color: var(--text-main) !important;
+            border: 2px solid var(--accent-gold);
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 0.92rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 0 20px rgba(251, 191, 36, 0.2);
+            transition: all 0.3s ease;
+        }
+        .btn-love-outline:hover {
+            background: var(--accent-gold);
+            color: #140510 !important;
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(251, 191, 36, 0.45);
+        }
+
+        /* --- SECTIONS --- */
+        section {
+            padding: 95px 5%;
+            position: relative;
+            z-index: 2;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .section-badge {
+            display: inline-block;
+            padding: 6px 18px;
+            border-radius: 30px;
+            background: rgba(255, 42, 117, 0.15);
+            border: 1px solid var(--surface-border);
+            color: var(--accent-pink);
+            font-weight: 700;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        body.day-mode .section-badge {
+            color: var(--accent-rose);
+        }
+        .section-header h2 {
+            font-size: 2.7rem;
+            margin-bottom: 12px;
+        }
+        .section-header p {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* ==========================================================================
+           1. HERO SECTION + LIVE AFFECTION SENDER BAR
+           ========================================================================== */
+        #hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 115px;
+        }
+        .anniversary-crown {
+            font-size: 2.8rem;
+            color: var(--accent-gold);
+            filter: drop-shadow(0 0 18px rgba(251, 191, 36, 0.6));
+            margin-bottom: 10px;
+            animation: floatCrown 3s ease-in-out infinite alternate;
+        }
+        @keyframes floatCrown {
+            from { transform: translateY(0) rotate(-3deg); }
+            to { transform: translateY(-10px) rotate(3deg); }
+        }
+        #hero h1 {
+            font-size: 4rem;
+            line-height: 1.15;
+            margin-bottom: 18px;
+        }
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 780px;
+            line-height: 1.75;
+            margin: 0 auto 28px;
+        }
+        .stats-bar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 18px;
+            margin: 20px 0 32px;
+        }
+        .stat-pill {
+            padding: 16px 24px;
+            min-width: 150px;
+            text-align: center;
+            border-radius: 22px;
+        }
+        .stat-pill .num {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--accent-gold);
+            display: block;
+        }
+        .stat-pill .lbl {
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        /* Interactive Affection Counter Bar */
+        .affection-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            justify-content: center;
+            margin-top: 28px;
+        }
+        .reaction-btn {
+            background: var(--surface-bg);
+            border: 1px solid var(--surface-border);
+            color: var(--text-main);
+            padding: 10px 20px;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 8px 20px var(--shadow-color);
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .reaction-btn:hover {
+            transform: translateY(-3px) scale(1.05);
+            border-color: var(--accent-rose);
+        }
+        .reaction-btn span.count-badge {
+            background: var(--accent-rose);
+            color: #fff;
+            padding: 2px 9px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+
+        /* ==========================================================================
+           2. SPECIAL ATTRACTION: CARTOON BOY & 3D MEN'S WALLET WITH GIRL PHOTO
+           ========================================================================== */
+        .wallet-stage-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1.25fr;
+            gap: 35px;
+            align-items: center;
+            padding: 40px;
+        }
+        .cartoon-boy-box {
+            text-align: center;
+            position: relative;
+            padding: 10px;
+        }
+        .cartoon-boy-svg {
+            width: 100%;
+            max-width: 295px;
+            height: auto;
+            filter: drop-shadow(0 20px 35px rgba(0, 0, 0, 0.45));
+            transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .wallet-stage-wrapper.wallet-opened .cartoon-boy-svg {
+            transform: scale(1.04) translateY(-6px);
+        }
+        #boy-wallet-hand {
+            transform-origin: 200px 260px;
+            transition: transform 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .wallet-stage-wrapper.wallet-opened #boy-wallet-hand {
+            transform: translate(-18px, -28px) rotate(-14deg);
+        }
+        .speech-bubble {
+            background: linear-gradient(135deg, var(--accent-rose), var(--accent-purple));
+            color: #fff;
+            padding: 12px 18px;
+            border-radius: 20px 20px 20px 4px;
+            font-weight: 700;
+            font-size: 0.92rem;
+            display: inline-block;
+            margin-bottom: 14px;
+            box-shadow: 0 10px 25px rgba(255, 42, 117, 0.4);
+            animation: pulseBubble 2.5s infinite ease-in-out;
+        }
+        @keyframes pulseBubble {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        /* 3D Men's Bifold Leather Wallet Scene */
+        .wallet-3d-arena {
+            perspective: 1500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 440px;
+            position: relative;
+            padding-top: 60px;
+        }
+
+        .mens-wallet-3d {
+            width: 310px;
+            height: 225px;
+            position: relative;
+            transform-style: preserve-3d;
+            transform: rotateX(12deg) rotateY(-14deg);
+            transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+            cursor: pointer;
+        }
+        .wallet-stage-wrapper.wallet-opened .mens-wallet-3d {
+            transform: rotateX(6deg) rotateY(8deg) translateY(45px);
+        }
+
+        .wallet-base-right {
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 30% 30%, var(--leather-light), var(--leather-dark));
+            border-radius: 16px;
+            border: 3px solid #29120a;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.65), inset 0 0 25px rgba(0,0,0,0.6);
+            padding: 14px;
+            transform-style: preserve-3d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wallet-base-right::after {
+            content: '';
+            position: absolute;
+            inset: 7px;
+            border: 2px dashed rgba(251, 191, 36, 0.55);
+            border-radius: 11px;
+            pointer-events: none;
+        }
+
+        .wallet-id-window {
+            width: 88%;
+            height: 84%;
+            background: rgba(20, 8, 4, 0.7);
+            border: 2px solid rgba(251, 191, 36, 0.45);
+            border-radius: 12px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform-style: preserve-3d;
+            box-shadow: inset 0 4px 12px rgba(0,0,0,0.7);
+        }
+
+        /* THE GIRL'S PHOTO CARD THAT POPS OUT OF THE WALLET! */
+        .girl-photo-card {
+            width: 190px;
+            height: 230px;
+            background: #fff;
+            border-radius: 14px;
+            padding: 10px 10px 34px 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.45);
+            position: absolute;
+            transform: translateZ(4px) scale(0.66) rotate(-2deg);
+            opacity: 0.95;
+            transition: transform 0.95s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.8s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 25;
+        }
+        .wallet-stage-wrapper.wallet-opened .girl-photo-card {
+            transform: translateY(-105px) translateZ(120px) scale(1.1) rotate(2deg);
+            box-shadow: 0 30px 65px rgba(255, 42, 117, 0.7), 0 0 30px rgba(251, 191, 36, 0.6);
+            opacity: 1;
+        }
+        .girl-photo-frame {
+            width: 100%;
+            height: 170px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffe4ed, #fbcfe8);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .girl-photo-frame svg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .polaroid-caption {
+            font-family: 'Dancing Script', cursive;
+            color: #be123c;
+            font-size: 1.22rem;
+            font-weight: 700;
+            margin-top: 6px;
+            white-space: nowrap;
+        }
+
+        /* Left Folding Cover Flap of the Men's Wallet */
+        .wallet-flap-left {
+            position: absolute;
+            inset: 0;
+            transform-origin: left center;
+            transform-style: preserve-3d;
+            transform: rotateY(0deg) translateZ(12px);
+            transition: transform 0.95s cubic-bezier(0.22, 1, 0.36, 1);
+            z-index: 30;
+        }
+        .wallet-stage-wrapper.wallet-opened .wallet-flap-left {
+            transform: rotateY(-162deg) translateZ(12px);
+        }
+
+        .flap-front-outside {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, var(--leather-mid), var(--leather-dark));
+            border-radius: 16px;
+            border: 3px solid #29120a;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 20px 45px rgba(0,0,0,0.6);
+        }
+        .flap-front-outside::after {
+            content: '';
+            position: absolute;
+            inset: 8px;
+            border: 2px dashed rgba(251, 191, 36, 0.6);
+            border-radius: 11px;
+        }
+        .wallet-metal-badge {
+            background: linear-gradient(135deg, #fde68a, #d97706);
+            color: #29120a;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 0.88rem;
+            letter-spacing: 1.5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .wallet-clasp-strap {
+            position: absolute;
+            right: -8px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 45px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--leather-light), var(--leather-dark));
+            border: 2px solid #fbbf24;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: -4px 4px 10px rgba(0,0,0,0.5);
+        }
+        .wallet-clasp-strap::before {
+            content: '';
+            width: 12px; height: 12px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #fef08a, #b45309);
+        }
+
+        .flap-back-inside {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, var(--leather-dark), #2b130b);
+            border-radius: 16px;
+            border: 3px solid #29120a;
+            transform: rotateY(180deg);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .flap-back-inside::after {
+            content: '';
+            position: absolute;
+            inset: 7px;
+            border: 2px dashed rgba(251, 191, 36, 0.45);
+            border-radius: 11px;
+            pointer-events: none;
+        }
+        .love-credit-card {
+            background: linear-gradient(135deg, #ff2a75, #9333ea);
+            color: #fff;
+            padding: 9px 12px;
+            border-radius: 10px;
+            font-size: 0.74rem;
+            font-weight: 700;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.35);
+            cursor: pointer;
+            transition: transform 0.2s;
+            position: relative;
+            z-index: 5;
+        }
+        .love-credit-card:hover {
+            transform: scale(1.05);
+        }
+        .love-credit-card.gold-card {
+            background: linear-gradient(135deg, #f59e0b, #b45309);
+        }
+
+        .wallet-controls {
+            margin-top: 45px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+        .wallet-secret-quote {
+            margin-top: 18px;
+            text-align: center;
+            font-size: 1.08rem;
+            font-style: italic;
+            color: var(--accent-gold);
+            min-height: 48px;
+            max-width: 520px;
+        }
+
+        /* ==========================================================================
+           3. INTERACTIVE FEATURE: 3D FLIP-BOOK "12 MONTHS LONG DISTANCE DIARY"
+           ========================================================================== */
+        .flipbook-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        .book-stage-3d {
+            width: 100%;
+            max-width: 460px;
+            height: 340px;
+            perspective: 1600px;
+            position: relative;
+            margin-bottom: 28px;
+        }
+        .book-page-card {
+            width: 100%;
+            height: 100%;
+            border-radius: 24px;
+            padding: 35px 30px;
+            background: linear-gradient(145deg, rgba(255, 42, 117, 0.22), rgba(38, 9, 31, 0.92));
+            border: 2px solid var(--accent-gold);
+            box-shadow: 0 25px 55px rgba(0,0,0,0.6), inset 0 0 30px rgba(255, 42, 117, 0.25);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            transform-origin: left center;
+            transform-style: preserve-3d;
+            transition: transform 0.65s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease;
+            cursor: pointer;
+        }
+        body.day-mode .book-page-card {
+            background: linear-gradient(145deg, #fff0f5, #ffe4ed);
+        }
+        .book-page-card.flipping {
+            transform: rotateY(-95deg) scale(0.95);
+            opacity: 0.3;
+        }
+        .page-chapter-tag {
+            font-size: 0.8rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+        }
+        .page-icon-circle {
+            width: 68px; height: 68px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent-rose), var(--accent-purple));
+            color: #fff;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px auto;
+            box-shadow: 0 10px 25px rgba(255, 42, 117, 0.5);
+        }
+        .book-controls {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* ==========================================================================
+           4. 180° 3D FLIP SHAYARI CARDS (CLICK OR HOVER TO FLIP)
+           ========================================================================== */
+        .shayari-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+            gap: 28px;
+        }
+        .flip-card-3d {
+            height: 350px;
+            perspective: 1200px;
+            cursor: pointer;
+        }
+        .flip-card-inner {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .flip-card-3d.flipped .flip-card-inner,
+        .flip-card-3d:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .flip-face {
+            position: absolute;
+            inset: 0;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            padding: 34px 26px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .flip-face-back {
+            transform: rotateY(180deg);
+            border-color: var(--accent-gold);
+            background: linear-gradient(135deg, rgba(255, 42, 117, 0.25), rgba(147, 51, 234, 0.25));
+        }
+        .shayari-icon {
+            width: 64px; height: 64px;
+            margin: 0 auto 16px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, rgba(255, 42, 117, 0.2), rgba(251, 191, 36, 0.15));
+            border: 1px solid var(--surface-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: var(--accent-rose);
+        }
+        .shayari-text {
+            font-size: 1.06rem;
+            line-height: 1.75;
+            font-style: italic;
+            margin-bottom: 14px;
+        }
+        .shayari-author {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.35rem;
+            color: var(--accent-gold);
+        }
+        .flip-hint {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-muted);
+            margin-top: 8px;
+            opacity: 0.8;
+        }
+
+        /* ==========================================================================
+           5. INTERACTIVE FEATURE: SPIN THE WHEEL OF ROMANCE + SCRATCH CARD
+           ========================================================================== */
+        .arcade-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 35px;
+            align-items: stretch;
+        }
+        .wheel-card, .scratch-card-box {
+            padding: 35px 25px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .wheel-stage {
+            position: relative;
+            width: 250px;
+            height: 250px;
+            margin: 18px auto;
+        }
+        .wheel-pointer {
+            position: absolute;
+            top: -16px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            font-size: 2.2rem;
+            color: var(--accent-gold);
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.6));
+        }
+        .romance-wheel {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 5px solid var(--accent-gold);
+            box-shadow: 0 0 30px rgba(255, 42, 117, 0.45), inset 0 0 15px rgba(0,0,0,0.5);
+            background: conic-gradient(
+                #ff2a75 0deg 45deg,
+                #9333ea 45deg 90deg,
+                #e11d48 90deg 135deg,
+                #d97706 135deg 180deg,
+                #ff2a75 180deg 225deg,
+                #9333ea 225deg 270deg,
+                #e11d48 270deg 315deg,
+                #d97706 315deg 360deg
+            );
+            transition: transform 3.8s cubic-bezier(0.15, 0.85, 0.25, 1);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wheel-center-cap {
+            width: 56px; height: 56px;
+            border-radius: 50%;
+            background: #fff;
+            color: #e11d48;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            border: 3px solid var(--accent-gold);
+        }
+
+        /* Scratch Card Styles */
+        .scratch-stage {
+            position: relative;
+            width: 280px;
+            height: 190px;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 2px solid var(--accent-gold);
+            margin: 18px auto;
+            background: linear-gradient(135deg, #be123c, #4c1d95);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 18px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.45);
+            user-select: none;
+        }
+        .scratch-secret-prize {
+            color: #fff;
+            text-align: center;
+        }
+        .scratch-secret-prize i {
+            font-size: 2.3rem;
+            color: #fbbf24;
+            margin-bottom: 8px;
+        }
+        #scratchCanvas {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            touch-action: none;
+        }
+
+        /* ==========================================================================
+           6. INTERACTIVE 3D MINI-GAME: "CATCH NAVU'S LOVE HEARTS" + LOVE METER
+           ========================================================================== */
+        .game-wrapper {
+            padding: 35px;
+            text-align: center;
+        }
+        .game-hud {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            max-width: 750px;
+            margin: 0 auto 18px;
+            padding: 14px 22px;
+            border-radius: 20px;
+            background: rgba(0, 0, 0, 0.25);
+            border: 1px solid var(--surface-border);
+        }
+        .hud-stat {
+            font-weight: 800;
+            font-size: 1.05rem;
+        }
+        .hud-stat span {
+            color: var(--accent-gold);
+            font-size: 1.3rem;
+        }
+        .love-meter-track {
+            max-width: 750px;
+            height: 14px;
+            background: rgba(255,255,255,0.12);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            overflow: hidden;
+            border: 1px solid var(--surface-border);
+        }
+        .love-meter-fill {
+            height: 100%;
+            width: 8%;
+            background: linear-gradient(90deg, var(--accent-rose), var(--accent-gold));
+            border-radius: 20px;
+            transition: width 0.4s ease;
+        }
+        .game-arena {
+            width: 100%;
+            max-width: 750px;
+            height: 340px;
+            margin: 0 auto;
+            border-radius: 24px;
+            background: radial-gradient(circle at center, rgba(255, 42, 117, 0.16), rgba(15, 3, 12, 0.85));
+            border: 2px solid var(--surface-border);
+            position: relative;
+            overflow: hidden;
+            box-shadow: inset 0 0 40px rgba(0,0,0,0.6);
+            cursor: crosshair;
+            user-select: none;
+        }
+        body.day-mode .game-arena {
+            background: radial-gradient(circle at center, rgba(255, 182, 193, 0.4), rgba(255, 228, 237, 0.9));
+        }
+        .floating-target-heart {
+            position: absolute;
+            width: 62px; height: 62px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 30% 30%, #ff75a0, #e11d48);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.7rem;
+            box-shadow: 0 10px 25px rgba(255, 42, 117, 0.65), inset 0 2px 5px rgba(255,255,255,0.6);
+            cursor: pointer;
+            transform: scale(0);
+            animation: popTarget 0.35s forwards cubic-bezier(0.34, 1.56, 0.64, 1);
+            transition: transform 0.15s;
+        }
+        .floating-target-heart.golden-bonus {
+            background: radial-gradient(circle at 30% 30%, #fef08a, #d97706);
+            box-shadow: 0 10px 25px rgba(251, 191, 36, 0.75);
+        }
+        .floating-target-heart:hover {
+            transform: scale(1.15);
+        }
+        @keyframes popTarget {
+            to { transform: scale(1); }
+        }
+        .game-msg-toast {
+            margin: 22px auto 0;
+            max-width: 680px;
+            min-height: 70px;
+            padding: 16px 22px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, rgba(255, 42, 117, 0.22), rgba(192, 132, 252, 0.15));
+            border: 1px solid var(--accent-rose);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-main);
+            transition: transform 0.25s ease;
+        }
+
+        /* ==========================================================================
+           7. 3D ROTATING HOLOGRAPHIC MEMORY CUBE (12 MONTHS OF LONG DISTANCE LOVE)
+           ========================================================================== */
+        .cube-section-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 45px;
+            align-items: center;
+        }
+        .scene-3d-cube {
+            width: 250px;
+            height: 250px;
+            margin: 35px auto;
+            perspective: 1000px;
+        }
+        .memory-cube {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transform: rotateX(-15deg) rotateY(25deg);
+            animation: spinCube 18s infinite linear;
+        }
+        .memory-cube:hover {
+            animation-play-state: paused;
+        }
+        @keyframes spinCube {
+            0% { transform: rotateX(-15deg) rotateY(0deg); }
+            50% { transform: rotateX(15deg) rotateY(180deg); }
+            100% { transform: rotateX(-15deg) rotateY(360deg); }
+        }
+        .cube-face {
+            position: absolute;
+            width: 250px; height: 250px;
+            background: rgba(255, 42, 117, 0.2);
+            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+            border: 2px solid var(--accent-gold);
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+            box-shadow: inset 0 0 35px rgba(255, 42, 117, 0.35), 0 0 25px rgba(0,0,0,0.4);
+        }
+        body.day-mode .cube-face {
+            background: rgba(255, 255, 255, 0.9);
+        }
+        .cube-face i {
+            font-size: 2.4rem;
+            color: var(--accent-gold);
+            margin-bottom: 10px;
+        }
+        .cube-face h4 {
+            font-size: 1.2rem;
+            margin-bottom: 6px;
+        }
+        .cube-face p {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+        .face-front  { transform: rotateY(  0deg) translateZ(125px); }
+        .face-right  { transform: rotateY( 90deg) translateZ(125px); }
+        .face-back   { transform: rotateY(180deg) translateZ(125px); }
+        .face-left   { transform: rotateY(-90deg) translateZ(125px); }
+        .face-top    { transform: rotateX( 90deg) translateZ(125px); }
+        .face-bottom { transform: rotateX(-90deg) translateZ(125px); }
+
+        .vows-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .vow-item {
+            padding: 18px 22px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .vow-num {
+            width: 46px; height: 46px;
+            flex-shrink: 0;
+            border-radius: 14px;
+            background: linear-gradient(135deg, var(--accent-rose), var(--accent-purple));
+            color: #fff;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.05rem;
+        }
+
+        /* ==========================================================================
+           8. 3D INTERACTIVE LOVE LETTER & WISH POPUP FORM
+           ========================================================================== */
+        .love-letter-box {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 45px;
+            text-align: center;
+        }
+        .letter-paper {
+            background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+            border: 1px dashed var(--accent-gold);
+            border-radius: 22px;
+            padding: 32px;
+            margin-bottom: 30px;
+            text-align: left;
+            line-height: 1.85;
+            font-size: 1.05rem;
+        }
+        .form-input {
+            width: 100%;
+            padding: 16px 20px;
+            margin-bottom: 16px;
+            border-radius: 16px;
+            border: 1px solid var(--surface-border);
+            background: var(--surface-bg);
+            color: var(--text-main);
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        .form-input:focus {
+            outline: none;
+            border-color: var(--accent-rose);
+            box-shadow: 0 0 20px rgba(255, 42, 117, 0.3);
+        }
+
+        
+        /* --- INTERACTIVE LOVE BRIDGE & OPEN-WHEN ENVELOPES & THUMBPRINT SEAL --- */
+        .ldr-interactive-vault {
+            margin-top: 35px;
+            padding-top: 30px;
+            border-top: 1px dashed var(--surface-border);
+        }
+        .distance-bridge-box {
+            background: rgba(0, 0, 0, 0.22);
+            border: 1px solid var(--surface-border);
+            border-radius: 22px;
+            padding: 25px 20px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        body.day-mode .distance-bridge-box {
+            background: rgba(255, 228, 237, 0.55);
+        }
+        .bridge-track {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            max-width: 520px;
+            margin: 20px auto 15px;
+            padding: 0 10px;
+        }
+        .bridge-line {
+            position: absolute;
+            left: 55px;
+            right: 55px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 4px;
+            z-index: 1;
+        }
+        .bridge-line-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--accent-rose), var(--accent-gold));
+            border-radius: 4px;
+            transition: width 1s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .plane-icon-moving {
+            position: absolute;
+            left: 12%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.5rem;
+            color: var(--accent-gold);
+            z-index: 3;
+            filter: drop-shadow(0 0 10px rgba(251, 191, 36, 0.8));
+            transition: left 1s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .city-node {
+            position: relative;
+            z-index: 2;
+            background: var(--surface-bg);
+            border: 2px solid var(--accent-rose);
+            padding: 10px 16px;
+            border-radius: 30px;
+            font-weight: 800;
+            font-size: 0.88rem;
+            box-shadow: 0 8px 20px var(--shadow-color);
+        }
+        .envelopes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 16px;
+            margin: 20px 0 30px;
+        }
+        .open-when-envelope {
+            background: linear-gradient(135deg, rgba(255, 42, 117, 0.16), rgba(147, 51, 234, 0.12));
+            border: 1px solid var(--surface-border);
+            border-radius: 18px;
+            padding: 20px 16px;
+            cursor: pointer;
+            transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        .open-when-envelope:hover {
+            transform: translateY(-6px) scale(1.03);
+            border-color: var(--accent-gold);
+            box-shadow: 0 15px 30px rgba(255, 42, 117, 0.3);
+        }
+        .open-when-envelope i.env-icon {
+            font-size: 2rem;
+            color: var(--accent-gold);
+            margin-bottom: 10px;
+            display: block;
+        }
+        .open-when-envelope h5 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: var(--text-main);
+        }
+        .open-when-envelope span {
+            font-size: 0.75rem;
+            color: var(--accent-pink);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+        .thumbprint-scanner-box {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .thumbprint-btn {
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255, 42, 117, 0.3), rgba(15, 3, 12, 0.9));
+            border: 3px solid var(--accent-rose);
+            color: var(--accent-rose);
+            font-size: 2.6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 0 25px rgba(255, 42, 117, 0.5), inset 0 0 15px rgba(255, 42, 117, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+            user-select: none;
+        }
+        .thumbprint-btn:hover, .thumbprint-btn.scanning {
+            transform: scale(1.1);
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+            box-shadow: 0 0 40px rgba(251, 191, 36, 0.8), inset 0 0 25px rgba(251, 191, 36, 0.6);
+        }
+
+        /* POPUP MODAL */
+        .love-modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(10, 2, 8, 0.82);
+            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.35s ease, visibility 0s linear 0.35s;
+        }
+        .love-modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.35s ease, visibility 0s;
+        }
+        .love-modal-card {
+            max-width: 460px;
+            width: 90%;
+            padding: 40px 30px;
+            text-align: center;
+            transform: scale(0.8);
+            transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .love-modal-overlay.active .love-modal-card {
+            transform: scale(1);
+        }
+
+        /* Floating Emoji Burst on Click */
+        .emoji-flyer {
+            position: fixed;
+            pointer-events: none;
+            z-index: 9998;
+            font-size: 2rem;
+            animation: flyUpFade 1.8s forwards ease-out;
+        }
+        @keyframes flyUpFade {
+            0% { transform: translateY(0) scale(0.6) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(-180px) scale(1.5) rotate(18deg); opacity: 0; }
+        }
+
+        footer {
+            text-align: center;
+            padding: 45px 20px;
+            border-top: 1px solid var(--surface-border);
+            color: var(--text-muted);
+            font-size: 0.92rem;
+        }
+
+        /* --- RESPONSIVE DESIGN --- */
+        @media (max-width: 960px) {
+            #hero h1 { font-size: 2.6rem; }
+            .wallet-stage-wrapper,
+            .cube-section-layout,
+            .arcade-grid {
+                grid-template-columns: 1fr;
+                padding: 25px 18px;
+            }
+            .nav-links { display: none; }
+            .mobile-bottom-dock { display: flex; }
+            .section-header h2 { font-size: 2.1rem; }
+            .love-letter-box { padding: 28px 18px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 3D Floating Hearts & Sparkles Background Canvas -->
+    <canvas id="love-canvas"></canvas>
+
+    <!-- Ambient Romantic Glow Orbs -->
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+
+    <!-- UNIVERSAL POPUP MODAL -->
+    <div id="loveModal" class="love-modal-overlay">
+        <div class="love-modal-card glass-panel">
+            <div class="brand-heart-badge" style="width: 72px; height: 72px; font-size: 2rem; margin: 0 auto 18px;">
+                <i class="fas fa-heart" id="modalIcon"></i>
+            </div>
+            <h3 id="modalTitle" style="font-size: 1.75rem; margin-bottom: 12px;">Meelon Door Se Dil Tak Pahunch Gaya! ❤️</h3>
+            <p id="modalCustomText" style="color: var(--text-muted); line-height: 1.7; margin-bottom: 26px;">
+                Aapka pyar bhara paigam dooriyon ko paar karke hamesha ke liye Navu aur Teena Ji ki 1st Year (12th Month) Anniversary memory book me lock ho gaya hai!
+            </p>
+            <button type="button" id="closeModalBtn" class="btn-love" style="width: 100%;">Keep Celebrating 💖</button>
+        </div>
+    </div>
+
+    <!-- STICKY NAVBAR -->
+    <nav class="love-navbar">
+        <a href="#hero" class="brand-logo">
+            <div class="brand-heart-badge"><i class="fas fa-heart"></i></div>
+            <span>NAVU <span style="color: var(--accent-rose);">❤️</span> TEENA JI</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#wallet-section">Wallet 💼</a></li>
+            <li><a href="#flipbook-section">LDR Diary 📖</a></li>
+            <li><a href="#shayari-section">Shayari 🌹</a></li>
+            <li><a href="#arcade-section">Spin &amp; Scratch 🎡</a></li>
+            <li><a href="#game-section">3D Game 🎮</a></li>
+            <li><a href="#letter-section">Letter 💌</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button type="button" class="circle-btn" id="musicToggleBtn" title="Play Romantic Music Box Melody 🎵">
+                <i class="fas fa-music" id="musicIcon"></i>
+            </button>
+            <button type="button" class="circle-btn" id="showerHeartsBtn" title="Shower 3D Hearts Across Miles!">
+                <i class="fas fa-magic"></i>
+            </button>
+            <button type="button" class="circle-btn" id="themeToggleBtn" title="Switch Day / Night Mode">
+                <i class="fas fa-sun" id="themeIcon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MOBILE QUICK NAVIGATION DOCK -->
+    <div class="mobile-bottom-dock">
+        <a href="#hero" title="Home"><i class="fas fa-home"></i></a>
+        <a href="#wallet-section" title="3D Wallet"><i class="fas fa-wallet"></i></a>
+        <a href="#flipbook-section" title="Love Book"><i class="fas fa-book-open"></i></a>
+        <a href="#arcade-section" title="Spin Wheel"><i class="fas fa-dharmachakra"></i></a>
+        <a href="#game-section" title="3D Game"><i class="fas fa-gamepad"></i></a>
+        <a href="#letter-section" title="Love Letter"><i class="fas fa-envelope-open-text"></i></a>
+    </div>
+
+    <!-- ==========================================================================
+         1. HERO SECTION: 1 YEAR (12 MONTHS) OF LONG DISTANCE LOVE
+         ========================================================================== -->
+    <section id="hero">
+        <div class="anniversary-crown"><i class="fas fa-crown"></i></div>
+        <div class="section-badge">✨ Happy 1st Year • 12 Months Long Distance Love Anniversary ✨</div>
+        <h1 class="royal-title">
+            Navu <span class="gradient-love">&amp;</span> Teena Ji
+        </h1>
+        <p class="hero-subtitle">
+            Shahar alag hain aur beech me meelon ka faasla hai, par hamare dil har dhadkan ke saath ek hi jagah dhadakte hain! 1 saal, 12 khoobsurat mahine, hazaaro video calls aur bepanah intezaar ke baad bhi har roz aur gehra hone wale hamare pyar ke naam yeh 3D duniya, meri pyari <strong>Teena Ji</strong>! ❤️
+        </p>
+
+        <div class="stats-bar">
+            <div class="glass-panel tilt-card stat-pill">
+                <span class="num pop-z-2">1</span>
+                <span class="lbl">Golden Year</span>
+            </div>
+            <div class="glass-panel tilt-card stat-pill">
+                <span class="num pop-z-2">12</span>
+                <span class="lbl">Months Across Miles</span>
+            </div>
+            <div class="glass-panel tilt-card stat-pill">
+                <span class="num pop-z-2">0 km</span>
+                <span class="lbl">Dilo Ka Faasla</span>
+            </div>
+            <div class="glass-panel tilt-card stat-pill">
+                <span class="num pop-z-2">∞</span>
+                <span class="lbl">Janam Ka Saath</span>
+            </div>
+        </div>
+
+        <div style="display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;">
+            <a href="#wallet-section" class="btn-love">
+                <i class="fas fa-wallet"></i> Open My 3D Wallet 💼
+            </a>
+            <a href="#flipbook-section" class="btn-love-outline">
+                <i class="fas fa-book-open"></i> Read Long Distance Diary 📖
+            </a>
+        </div>
+
+        <!-- Interactive Live Affection Buttons -->
+        <div class="affection-bar">
+            <button type="button" class="reaction-btn" data-emoji="🌹" data-key="roses">
+                🌹 Send Virtual Rose <span class="count-badge" id="count-roses">12</span>
+            </button>
+            <button type="button" class="reaction-btn" data-emoji="💋" data-key="kisses">
+                💋 Send Flying Kiss <span class="count-badge" id="count-kisses">100</span>
+            </button>
+            <button type="button" class="reaction-btn" data-emoji="🤗" data-key="hugs">
+                🤗 Send Long-Distance Hug <span class="count-badge" id="count-hugs">365</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         2. SPECIAL FEATURE: CARTOON BOY & 3D MEN'S WALLET WITH GIRL PHOTO
+         ========================================================================== -->
+    <section id="wallet-section">
+        <div class="section-header">
+            <div class="section-badge">💼 Men's Wallet 3D Animation</div>
+            <h2>Door Rehkar Bhi Mere <span class="gradient-love">Wallet</span> Me Aap Ho</h2>
+            <p>Chahe hum abhi long distance me ek dusre se door hain, par jab bhi mujhe aapki yaad aati hai main apna wallet khol kar dekh leta hu... niche button dabao ya wallet par click karo!</p>
+        </div>
+
+        <div class="glass-panel wallet-stage-wrapper" id="walletStage">
+            <!-- Left Column: Cute Cartoon Boy Pulling Out His Wallet -->
+            <div class="cartoon-boy-box">
+                <div class="speech-bubble" id="boySpeech">
+                    "Aap door ho toh kya hua Teena Ji! Dekho mere wallet me kaun rehta hai... 💼😍"
+                </div>
+
+                <!-- Custom High-Detail SVG Cartoon Boy (Navu) -->
+                <svg class="cartoon-boy-svg" viewBox="0 0 360 400" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="suitGrad" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#1e293b"/>
+                            <stop offset="100%" stop-color="#0f172a"/>
+                        </linearGradient>
+                        <linearGradient id="shirtGrad" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#ff2a75"/>
+                            <stop offset="100%" stop-color="#be123c"/>
+                        </linearGradient>
+                        <radialGradient id="skinBoy" cx="50%" cy="45%" r="55%">
+                            <stop offset="0%" stop-color="#ffe0bd"/>
+                            <stop offset="100%" stop-color="#f1c27d"/>
+                        </radialGradient>
+                    </defs>
+
+                    <circle cx="180" cy="210" r="145" fill="rgba(255, 42, 117, 0.14)"/>
+                    <path d="M85 380 L105 240 Q180 225 255 240 L275 380 Z" fill="url(#suitGrad)" stroke="#fbbf24" stroke-width="2"/>
+                    <polygon points="150,235 210,235 180,320" fill="url(#shirtGrad)"/>
+                    <path d="M215 280 L235 268 L242 285 Z" fill="#ff2a75"/>
+                    <rect x="163" y="200" width="34" height="42" rx="10" fill="url(#skinBoy)"/>
+                    <ellipse cx="180" cy="145" rx="62" ry="68" fill="url(#skinBoy)"/>
+                    <circle cx="116" cy="150" r="13" fill="url(#skinBoy)"/>
+                    <circle cx="244" cy="150" r="13" fill="url(#skinBoy)"/>
+                    <path d="M115 135 Q110 75 165 68 Q205 55 240 85 Q258 105 243 135 Q230 100 185 95 Q135 95 115 135 Z" fill="#1e1b18"/>
+                    <path d="M145 72 Q185 45 225 75 Q190 68 145 72 Z" fill="#2d2621"/>
+                    <path d="M140 122 Q155 114 168 120" stroke="#1e1b18" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+                    <path d="M192 120 Q205 114 220 122" stroke="#1e1b18" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+                    <ellipse cx="154" cy="142" rx="10" ry="12" fill="#1e1b18"/>
+                    <circle cx="151" cy="138" r="4" fill="#fff"/>
+                    <ellipse cx="206" cy="142" rx="10" ry="12" fill="#1e1b18"/>
+                    <circle cx="203" cy="138" r="4" fill="#fff"/>
+                    <ellipse cx="136" cy="162" rx="11" ry="6" fill="rgba(255, 42, 117, 0.35)"/>
+                    <ellipse cx="224" cy="162" rx="11" ry="6" fill="rgba(255, 42, 117, 0.35)"/>
+                    <path d="M178 150 Q184 158 176 162" stroke="#d99b66" stroke-width="3" stroke-linecap="round" fill="none"/>
+                    <path d="M158 176 Q180 196 202 176" stroke="#b91c1c" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+                    <!-- Animated Hand Pulling Out Men's Leather Wallet -->
+                    <g id="boy-wallet-hand">
+                        <rect x="210" y="220" width="76" height="54" rx="8" transform="rotate(-12 248 247)" fill="#5c2c16" stroke="#fbbf24" stroke-width="2.5"/>
+                        <rect x="216" y="226" width="64" height="42" rx="5" transform="rotate(-12 248 247)" fill="none" stroke="#fde68a" stroke-dasharray="4,3"/>
+                        <path d="M248 242 C245 237, 238 239, 240 246 C242 251, 248 255, 248 255 C248 255, 254 251, 256 246 C258 239, 251 237, 248 242 Z" fill="#ff2a75"/>
+                        <circle cx="218" cy="268" r="18" fill="url(#skinBoy)"/>
+                        <path d="M155 330 Q185 295 215 268" stroke="#1e293b" stroke-width="28" stroke-linecap="round"/>
+                    </g>
+                </svg>
+            </div>
+
+            <!-- Right Column: Interactive 3D Men's Wallet that Unfolds & Pops Out Girl's Photo -->
+            <div class="wallet-3d-arena">
+                <!-- 3D BIFOLD MEN'S WALLET -->
+                <div class="mens-wallet-3d" id="mensWallet3D" title="Click to Open/Close Wallet">
+                    
+                    <!-- Right Base of Wallet (Photo Compartment) -->
+                    <div class="wallet-base-right">
+                        <div class="wallet-id-window">
+                            
+                            <!-- THE POLAROID GIRL PHOTO CARD THAT SLIDES OUT IN 3D -->
+                            <div class="girl-photo-card" id="girlPhotoCard">
+                                <div class="girl-photo-frame" id="girlPhotoContainer">
+                                    <!-- 👇 YAHAN APNI PHOTO KA LINK YA FILE NAME ('teena.jpg') DAALEIN 👇 -->
+                                    <img id="teenaRealPhoto" src="https://i.ibb.co/hRDhNZDL/Whats-App-Image-2026-10-23-at-11-44-46-AM.jpg" alt="Meri Jaan Teena Ji" 
+                                         style="width: 100%; height: 100%; object-fit: cover; display: block;"
+                                         onerror="this.style.display='none'; document.getElementById('defaultGirlSvg').style.display='block';">
+                                    <svg id="defaultGirlSvg" style="display: none;" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <linearGradient id="bgGirl" x1="0" y1="0" x2="1" y2="1">
+                                                <stop offset="0%" stop-color="#ff9a9e"/>
+                                                <stop offset="100%" stop-color="#fecfef"/>
+                                            </linearGradient>
+                                            <radialGradient id="girlSkin" cx="50%" cy="45%" r="55%">
+                                                <stop offset="0%" stop-color="#fff0e0"/>
+                                                <stop offset="100%" stop-color="#f7d0b0"/>
+                                            </radialGradient>
+                                        </defs>
+                                        <rect width="220" height="220" fill="url(#bgGirl)"/>
+                                        <circle cx="35" cy="40" r="4" fill="#fff" opacity="0.8"/>
+                                        <circle cx="185" cy="45" r="5" fill="#fff" opacity="0.8"/>
+                                        <circle cx="45" cy="175" r="3.5" fill="#fff" opacity="0.8"/>
+                                        <path d="M45 110 Q35 190 55 220 L165 220 Q185 190 175 110 Q175 40 110 40 Q45 40 45 110 Z" fill="#23120b"/>
+                                        <path d="M62 220 L78 172 Q110 182 142 172 L158 220 Z" fill="#e11d48" stroke="#fbbf24" stroke-width="2.5"/>
+                                        <path d="M92 170 Q110 184 128 170" fill="none" stroke="#fbbf24" stroke-width="4"/>
+                                        <circle cx="110" cy="179" r="4" fill="#ff2a75"/>
+                                        <rect x="98" y="145" width="24" height="30" rx="8" fill="url(#girlSkin)"/>
+                                        <ellipse cx="110" cy="112" rx="44" ry="48" fill="url(#girlSkin)"/>
+                                        <circle cx="64" cy="126" r="6" fill="#fbbf24"/>
+                                        <path d="M58 132 L70 132 L64 142 Z" fill="#e11d48"/>
+                                        <circle cx="156" cy="126" r="6" fill="#fbbf24"/>
+                                        <path d="M150 132 L162 132 L156 142 Z" fill="#e11d48"/>
+                                        <path d="M65 105 Q75 62 115 65 Q148 62 155 105 Q135 80 110 82 Q82 80 65 105 Z" fill="#23120b"/>
+                                        <polygon points="88,64 100,45 110,58 120,45 132,64" fill="#fbbf24" stroke="#fff" stroke-width="1"/>
+                                        <circle cx="110" cy="55" r="3" fill="#ff2a75"/>
+                                        <circle cx="110" cy="94" r="3" fill="#e11d48"/>
+                                        <ellipse cx="91" cy="110" rx="8.5" ry="10.5" fill="#1e1b18"/>
+                                        <circle cx="88" cy="106" r="3.5" fill="#fff"/>
+                                        <circle cx="94" cy="114" r="1.8" fill="#fff"/>
+                                        <path d="M80 102 Q91 95 101 103" stroke="#1e1b18" stroke-width="3" fill="none"/>
+                                        <ellipse cx="129" cy="110" rx="8.5" ry="10.5" fill="#1e1b18"/>
+                                        <circle cx="126" cy="106" r="3.5" fill="#fff"/>
+                                        <circle cx="132" cy="114" r="1.8" fill="#fff"/>
+                                        <path d="M119 103 Q129 95 140 102" stroke="#1e1b18" stroke-width="3" fill="none"/>
+                                        <ellipse cx="78" cy="124" rx="9" ry="5" fill="rgba(255, 42, 117, 0.42)"/>
+                                        <ellipse cx="142" cy="124" rx="9" ry="5" fill="rgba(255, 42, 117, 0.42)"/>
+                                        <path d="M98 134 Q110 146 122 134" stroke="#e11d48" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+                                    </svg>
+                                </div>
+                                <div class="polaroid-caption">Meri Jaan Teena Ji ❤️</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Left Folding Flap of Men's Leather Wallet -->
+                    <div class="wallet-flap-left">
+                        <div class="flap-front-outside">
+                            <div class="wallet-metal-badge">
+                                <i class="fas fa-heart" style="color: #e11d48;"></i> NAVU'S WALLET
+                            </div>
+                            <p style="color: #fde68a; font-size: 0.78rem; margin-top: 12px; letter-spacing: 1px;">
+                                TAP TO OPEN PURSE 💼
+                            </p>
+                            <div class="wallet-clasp-strap"></div>
+                        </div>
+
+                        <div class="flap-back-inside">
+                            <div class="love-credit-card" id="vipCard1">
+                                <i class="fas fa-infinity"></i> LONG DISTANCE PASS<br>
+                                <span style="font-size: 0.65rem; opacity: 0.9;">Tap to Redeem Reunion Pass ✈️</span>
+                            </div>
+                            <div class="love-credit-card gold-card" id="vipCard2">
+                                <i class="fas fa-crown"></i> QUEEN OF MY HEART<br>
+                                <span style="font-size: 0.65rem; opacity: 0.9;">Holder: Teena Soni 👑</span>
+                            </div>
+                            <div style="font-size: 0.7rem; color: #fde68a; text-align: center; opacity: 0.85;">
+                                ★ 12 Months Anniversary Edition ★
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Interactive Controls for Wallet (Photo upload removed as requested) -->
+                <div class="wallet-controls">
+                    <button type="button" class="btn-love" id="toggleWalletBtn">
+                        <i class="fas fa-folder-open"></i> Open My Wallet &amp; Pop Photo 💖
+                    </button>
+                </div>
+
+                <div class="wallet-secret-quote" id="walletQuoteText">
+                    "Button dabao aur dekho meelon door rehkar bhi Navu apne wallet me hamesha kiski tasveer rakhta hai..."
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. INTERACTIVE 3D FLIP-BOOK: "OUR 12 MONTHS LONG DISTANCE DIARY"
+         ========================================================================== -->
+    <section id="flipbook-section">
+        <div class="section-header">
+            <div class="section-badge">📖 Interactive 3D Love Book</div>
+            <h2>Hamari <span class="gradient-love">12 Months</span> Ki Long Distance Diary</h2>
+            <p>Book ke page par click karo ya Next/Prev button daba kar dooriyon ke bawajood hamare 1 saal ke safar ke panne palto!</p>
+        </div>
+
+        <div class="glass-panel flipbook-container">
+            <div class="book-stage-3d">
+                <div class="book-page-card" id="bookPageCard" title="Click Page to Flip Next">
+                    <div class="page-chapter-tag" id="bookChapter">PAGE 1 OF 6 • MONTH 1 TO 2</div>
+                    <div class="page-icon-circle" id="bookIcon"><i class="fas fa-heart"></i></div>
+                    <h3 id="bookTitle" style="font-size: 1.65rem;">Do Shahar, Par Ek Hi Dhadkan ✨</h3>
+                    <p id="bookContent" style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.75;">
+                        “Shuruaat se hi beech me faasle the, par aapki aawaz aur pehli muskurahat ne meelon ki doori ko pal bhar me mita diya, Teena Ji.”
+                    </p>
+                    <div class="script-font" style="font-size: 1.35rem; color: var(--accent-gold);">
+                        — Tap Page to Flip ➔
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-controls">
+                <button type="button" class="btn-love-outline" id="prevPageBtn" style="padding: 10px 24px;">
+                    <i class="fas fa-arrow-left"></i> Prev Page
+                </button>
+                <button type="button" class="btn-love" id="nextPageBtn" style="padding: 10px 28px;">
+                    Next Page <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. 180° 3D FLIP SHAYARIYAN (LONG DISTANCE SPECIAL)
+         ========================================================================== -->
+    <section id="shayari-section">
+        <div class="section-header">
+            <div class="section-badge">🌹 180° 3D Flip Shayari Cards</div>
+            <h2>Faaslo Me Bhi Gehri <span class="gradient-love">Shayariyan</span></h2>
+            <p>Har card ke piche ek aur secret Long Distance shayari chhupi hai — card par mouse le jao ya tap karke 3D flip dekho!</p>
+        </div>
+
+        <div class="shayari-grid">
+            <!-- Flip Card 1 -->
+            <div class="flip-card-3d">
+                <div class="flip-card-inner">
+                    <div class="glass-panel flip-face">
+                        <div class="shayari-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <p class="shayari-text">
+                            "Shahar alag hain hamare, raaste bhi door hain,<br>
+                            Par mere dil ke har kone me aapka hi noor hai!<br>
+                            12 mahine door rehkar bhi har pal saath nibhaya,<br>
+                            Mujhe apni Teena Ji ke is sachaai bhare pyar par guroor hai!"
+                        </p>
+                        <div class="shayari-author">— Sirf Aapka Navu ❤️</div>
+                        <div class="flip-hint"><i class="fas fa-sync-alt"></i> Tap/Hover to Flip 3D</div>
+                    </div>
+                    <div class="glass-panel flip-face flip-face-back">
+                        <div class="shayari-icon"><i class="fas fa-video"></i></div>
+                        <p class="shayari-text">
+                            "Phone ki screen par jab aapka chehra nazar aata hai,<br>
+                            Meelon ka sara faasla wahi khatam ho jata hai,<br>
+                            Log kehte hain dooriyon se pyar kam hota hai,<br>
+                            Yahan toh har roz aapke liye ishq sau guna badh jata hai!"
+                        </p>
+                        <div class="shayari-author">— Secret LDR Shayari #1 💖</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flip Card 2 -->
+            <div class="flip-card-3d">
+                <div class="flip-card-inner">
+                    <div class="glass-panel flip-face">
+                        <div class="shayari-icon"><i class="fas fa-wallet"></i></div>
+                        <p class="shayari-text">
+                            "Chahe kitne bhi kilometer ka faasla hamare darmiyan ho,<br>
+                            Meri har subah aur har shaam ki dua me aapki muskaan ho,<br>
+                            Jab bhi aapki yaad satati hai is long distance me,<br>
+                            Apna wallet khol kar dekh leta hu jahan meri jaan ho!"
+                        </p>
+                        <div class="shayari-author">— Happy 1st Anniversary 💖</div>
+                        <div class="flip-hint"><i class="fas fa-sync-alt"></i> Tap/Hover to Flip 3D</div>
+                    </div>
+                    <div class="glass-panel flip-face flip-face-back">
+                        <div class="shayari-icon"><i class="fas fa-moon"></i></div>
+                        <p class="shayari-text">
+                            "Apni khidki se jab main raat ko chaand dekhta hu,<br>
+                            Lagta hai wahi chaand aapko bhi dekh kar muskurata hai,<br>
+                            Hum dono ek hi aasman ke niche hain Teena Ji,<br>
+                            Yeh ehsaas hi har doori ko aasaan bana jata hai!"
+                        </p>
+                        <div class="shayari-author">— Secret LDR Shayari #2 🌙</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flip Card 3 -->
+            <div class="flip-card-3d">
+                <div class="flip-card-inner">
+                    <div class="glass-panel flip-face">
+                        <div class="shayari-icon"><i class="fas fa-plane-departure"></i></div>
+                        <p class="shayari-text">
+                            "Ek saal intezaar aur wafa ke naam raha,<br>
+                            Har video call aur har message me aapka paigam raha,<br>
+                            Jald aayega wo din jab yeh saari dooriyan mit jayengi,<br>
+                            Aur haatho me hamesha ke liye aapka haath thama rahega!"
+                        </p>
+                        <div class="shayari-author">— Forever Yours ✨</div>
+                        <div class="flip-hint"><i class="fas fa-sync-alt"></i> Tap/Hover to Flip 3D</div>
+                    </div>
+                    <div class="glass-panel flip-face flip-face-back">
+                        <div class="shayari-icon"><i class="fas fa-heart"></i></div>
+                        <p class="shayari-text">
+                            "Aankhon ko intezaar hai us khoobsurat mulaqat ka,<br>
+                            Jab screen ke aar-paar nahi, aamne-saamne deedar hoga,<br>
+                            12 mahine ki saari kasar ek hi hug me poori kar lenge,<br>
+                            Jab meri baahon me mera sara sansaar (Teena Ji) hoga!"
+                        </p>
+                        <div class="shayari-author">— Secret LDR Shayari #3 🌟</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. INTERACTIVE ARCADE: SPIN THE WHEEL OF ROMANCE & SCRATCH CARD
+         ========================================================================== -->
+    <section id="arcade-section">
+        <div class="section-header">
+            <div class="section-badge">🎡 Long Distance Anniversary Arcade</div>
+            <h2>Spin The <span class="gradient-love">Love Wheel</span> &amp; Scratch Card</h2>
+            <p>Door rehkar bhi Teena Ji ke liye 2 special interactive surprises — Wheel ghumao aur Golden Card ko scratch karke apna gift dekho!</p>
+        </div>
+
+        <div class="arcade-grid">
+            <!-- Left: Spin the Wheel of Romance -->
+            <div class="glass-panel wheel-card">
+                <div>
+                    <h3>🎡 Wheel Of Romance</h3>
+                    <p style="color: var(--text-muted); font-size: 0.92rem; margin-top: 6px;">
+                        Spin karo aur dekho aaj long distance me ya agli mulaqat par Navu kaunsa surprise pura karega!
+                    </p>
+                </div>
+
+                <div class="wheel-stage">
+                    <div class="wheel-pointer"><i class="fas fa-caret-down"></i></div>
+                    <div class="romance-wheel" id="romanceWheel">
+                        <div class="wheel-center-cap"><i class="fas fa-heart"></i></div>
+                    </div>
+                </div>
+
+                <div style="width: 100%;">
+                    <p id="wheelResultText" style="color: var(--accent-gold); font-weight: 700; margin-bottom: 14px; min-height: 26px;">
+                        Click Spin to win your Anniversary Treat! ✨
+                    </p>
+                    <button type="button" class="btn-love" id="spinWheelBtn" style="width: 100%;">
+                        <i class="fas fa-sync-alt"></i> Spin Romantic Wheel 💖
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right: Interactive Scratch Card -->
+            <div class="glass-panel scratch-card-box">
+                <div>
+                    <h3>🎁 Secret Scratch Coupon</h3>
+                    <p style="color: var(--text-muted); font-size: 0.92rem; margin-top: 6px;">
+                        Apni ungli ya mouse se upar ki Golden Foil ko ragad (scratch) kar chhupa hua tohfa dekho!
+                    </p>
+                </div>
+
+                <div class="scratch-stage">
+                    <div class="scratch-secret-prize">
+                        <i class="fas fa-crown"></i>
+                        <h4 style="font-size: 1.2rem; margin-bottom: 4px;">NEXT MEETUP VIP PASS!</h4>
+                        <p style="font-size: 0.88rem; opacity: 0.95;">
+                            Teena Ji wins: <strong>Surprise Parcel Delivery + Late Night Video Date + Longest Tightest Hug The Moment We Meet!</strong> ✈️💑💖
+                        </p>
+                    </div>
+                    <canvas id="scratchCanvas" width="280" height="190"></canvas>
+                </div>
+
+                <div style="width: 100%;">
+                    <p style="color: var(--accent-pink); font-weight: 600; font-size: 0.9rem; margin-bottom: 14px;">
+                        Rub the golden box above with your finger/mouse!
+                    </p>
+                    <button type="button" class="btn-love-outline" id="resetScratchBtn" style="width: 100%;">
+                        <i class="fas fa-redo"></i> Reset Scratch Foil
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. SMALL 3D GAME WITH LONG DISTANCE ROMANTIC MESSAGES + LOVE METER
+         ========================================================================== -->
+    <section id="game-section">
+        <div class="section-header">
+            <div class="section-badge">🎮 Interactive 3D Mini-Game</div>
+            <h2>Catch The <span class="gradient-love">3D Love Hearts</span> Across Miles</h2>
+            <p>Uchhalte huye 3D Hearts par tap karo! Har heart pakadne par faasla kam hoga, Love Meter bharega aur 12 mahino ke 12 secret messages khulenge!</p>
+        </div>
+
+        <div class="glass-panel game-wrapper">
+            <div class="game-hud">
+                <div class="hud-stat">❤️ Hearts Caught: <span id="scoreVal">0</span> / 12</div>
+                <div class="hud-stat">🏆 Milestone: <span id="levelVal">Month 1</span></div>
+                <button type="button" class="btn-love" id="startGameBtn" style="padding: 9px 22px; font-size: 0.82rem;">
+                    <i class="fas fa-play"></i> Spawn More Hearts
+                </button>
+            </div>
+
+            <!-- Love Meter Progress Bar -->
+            <div class="love-meter-track">
+                <div class="love-meter-fill" id="loveMeterFill"></div>
+            </div>
+
+            <!-- 3D Interactive Game Arena -->
+            <div class="game-arena" id="gameArena"></div>
+
+            <!-- Romantic Message Reveal Box -->
+            <div class="game-msg-toast" id="gameMessageBox">
+                ✨ Kisi bhi glowing 3D Heart par tap karo aur padho meelon door baithe Navu ke dil ki pyar bhari baatein! ✨
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. 3D ROTATING MEMORY CUBE & 12 MONTHS LONG DISTANCE PROMISES
+         ========================================================================== -->
+    <section id="memories-section">
+        <div class="section-header">
+            <div class="section-badge">💎 360° 3D Hologram</div>
+            <h2>12 Months Of <span class="gradient-love">Long Distance Magic</span></h2>
+            <p>Door rehkar bhi har pal paas rehne wale hamare 1 saal (12 mahine) ke safar ka 3D rotating cube aur mere hamesha ke waade.</p>
+        </div>
+
+        <div class="cube-section-layout">
+            <div class="scene-3d-cube">
+                <div class="memory-cube">
+                    <div class="cube-face face-front">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Month 1–2</h4>
+                        <p>Raat bhar jag kar lambi calls aur screen par aapki pehli muskurahat ka jaadu!</p>
+                    </div>
+                    <div class="cube-face face-right">
+                        <i class="fas fa-video"></i>
+                        <h4>Month 3–4</h4>
+                        <p>Video call par ek dusre ko dekhna aur meelon ki doori bhool jaana.</p>
+                    </div>
+                    <div class="cube-face face-back">
+                        <i class="fas fa-heart"></i>
+                        <h4>Month 5–6</h4>
+                        <p>Bina paas huye bhi har mushkil me ek dusre ki sabse badi taqat banna.</p>
+                    </div>
+                    <div class="cube-face face-left">
+                        <i class="fas fa-moon"></i>
+                        <h4>Month 7–8</h4>
+                        <p>Alag shahar me rehkar ek hi chaand ko dekhna aur agli mulaqat ke din ginna.</p>
+                    </div>
+                    <div class="cube-face face-top">
+                        <i class="fas fa-wallet"></i>
+                        <h4>Month 9–10</h4>
+                        <p>Mere wallet me aapki tasveer aur har pal aapke messages ka intezaar.</p>
+                    </div>
+                    <div class="cube-face face-bottom">
+                        <i class="fas fa-infinity"></i>
+                        <h4>Month 11–12</h4>
+                        <p>1 Saal poora! Faasle haar gaye aur hamara sacha pyar jeet gaya!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vows-list">
+                <div class="glass-panel tilt-card vow-item">
+                    <div class="vow-num pop-z-2">01</div>
+                    <div class="pop-z-1">
+                        <h4>Koi Bhi Faasla Hamare Beech Nahi Aa Sakta</h4>
+                        <p style="color: var(--text-muted); font-size: 0.92rem;">Chahe hum kitne bhi kilometer door ho, mera waqt, mera dhyan aur mera dil hamesha aapke paas rahega.</p>
+                    </div>
+                </div>
+                <div class="glass-panel tilt-card vow-item">
+                    <div class="vow-num pop-z-2">02</div>
+                    <div class="pop-z-1">
+                        <h4>Dil Aur Wallet Dono Me Sirf Aapki Jagah</h4>
+                        <p style="color: var(--text-muted); font-size: 0.92rem;">Jab tak hum roz aamne-saamne nahi hote, mere wallet ki photo aur meri har dua me sirf aapka chehra rahega.</p>
+                    </div>
+                </div>
+                <div class="glass-panel tilt-card vow-item">
+                    <div class="vow-num pop-z-2">03</div>
+                    <div class="pop-z-1">
+                        <h4>Jald Hi Yeh Dooriyan Hamesha Ke Liye Mit Jayengi</h4>
+                        <p style="color: var(--text-muted); font-size: 0.92rem;">Yeh long distance bas kuch waqt ka imtihaan hai, jald hi har subah aur har shaam hum ek saath bitayenge!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. LOVE LETTER & ANNIVERSARY WISH SENDER
+         ========================================================================== -->
+    <section id="letter-section">
+        <div class="section-header">
+            <div class="section-badge">💌 Meelon Door Se Dil Ki Baat</div>
+            <h2>A Special Letter For <span class="gradient-love">Teena Ji</span></h2>
+            <p>Door baithi meri pyari Teena Ji ke liye ek chhota sa khat, 'Open When' secret lifafe aur hamara Forever Soulmate Lock!</p>
+        </div>
+
+        <div class="glass-panel love-letter-box">
+            <div class="letter-paper">
+                <h3 class="script-font" style="font-size: 2rem; color: var(--accent-gold); margin-bottom: 12px;">
+                    Meri Pyari Teena Ji,
+                </h3>
+                <p>
+                    Aaj hamari <strong>1st Year (12th Month) Anniversary</strong> hai! Kehte hain long distance relationship nibhana aasaan nahi hota, par aapke saath in 12 mahino me mujhe ek pal ke liye bhi aisa nahi laga ki aap mujhse door ho. Aapki har call, har voice note, aur video call par aapki wo pyari si muskaan ne har faasle ko hara diya hai.
+                </p>
+                <p style="margin-top: 12px;">
+                    Sach kahu toh door rehne se mujhe aapki ehmiyat aur zyada samajh aati hai. Jab bhi aapko miss karta hu, apna wallet khol kar aapki photo dekh leta hu aur us din ka intezaar karta hu jab mujhe aapko goodnight kehne ke liye phone nahi rakhna padega. Happy 1st Anniversary meri jaan! I Love You Across Every Mile &amp; Beyond! ❤️
+                </p>
+                <p class="script-font" style="font-size: 1.7rem; color: var(--accent-rose); text-align: right; margin-top: 15px;">
+                    — Hamesha Aapka, Navu 💑
+                </p>
+            </div>
+
+            <div class="ldr-interactive-vault">
+                <!-- 1. Interactive Distance Melter Bridge -->
+                <div class="distance-bridge-box">
+                    <h4 style="font-size: 1.35rem; margin-bottom: 6px;">✈️ Zero-Distance Love Bridge</h4>
+                    <p id="bridgeStatusText" style="color: var(--text-muted); font-size: 0.92rem;">
+                        Button dabao aur dekho kaise hamara pyar meelon ki doori ko 0 km bana deta hai!
+                    </p>
+                    <div class="bridge-track">
+                        <div class="city-node">📍 Navu</div>
+                        <div class="bridge-line">
+                            <div class="bridge-line-fill" id="bridgeLineFill"></div>
+                        </div>
+                        <div class="plane-icon-moving" id="planeMoving"><i class="fas fa-plane"></i></div>
+                        <div class="city-node">📍 Teena Ji</div>
+                    </div>
+                    <button type="button" class="btn-love" id="uniteHeartsBtn" style="padding: 11px 28px; font-size: 0.85rem; margin-top: 8px;">
+                        <i class="fas fa-heart"></i> Melt The Distance &amp; Send Virtual Hug 🤗
+                    </button>
+                </div>
+
+                <!-- 2. "Open When..." 3D Secret Envelopes for Teena Ji -->
+                <h4 style="font-size: 1.4rem; margin-bottom: 6px;">💌 "Open When..." Secret Lifafe For Teena Ji</h4>
+                <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 16px;">
+                    Jab bhi meri yaad aaye, inme se kisi bhi lifafe (envelope) par tap karke mera secret paigam khol lena:
+                </p>
+                <div class="envelopes-grid">
+                    <div class="open-when-envelope" data-env="0">
+                        <i class="fas fa-envelope-open-text env-icon"></i>
+                        <h5>Jab Meri Bahut Yaad Aaye 🥺</h5>
+                        <span>Tap To Open Lifafa ➔</span>
+                    </div>
+                    <div class="open-when-envelope" data-env="1">
+                        <i class="fas fa-moon env-icon"></i>
+                        <h5>Jab Raat Ko Neend Na Aaye 🌙</h5>
+                        <span>Tap To Open Lifafa ➔</span>
+                    </div>
+                    <div class="open-when-envelope" data-env="2">
+                        <i class="fas fa-smile-beam env-icon"></i>
+                        <h5>Jab Aapko Hasna Ho 😊</h5>
+                        <span>Tap To Open Lifafa ➔</span>
+                    </div>
+                    <div class="open-when-envelope" data-env="3">
+                        <i class="fas fa-plane-arrival env-icon"></i>
+                        <h5>Jab Hum Milne Wale Hon ✈️</h5>
+                        <span>Tap To Open Lifafa ➔</span>
+                    </div>
+                </div>
+
+                <!-- 3. Digital Thumbprint Forever Soulmate Contract Seal -->
+                <div class="thumbprint-scanner-box">
+                    <h4 style="font-size: 1.3rem; margin-bottom: 6px;">🔒 Lock Our Next 100 Years Together</h4>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px;">
+                        Teena Ji, niche glowing Fingerprint par tap karke hamari 1st Anniversary ka Forever Promise lock karein:
+                    </p>
+                    <button type="button" class="thumbprint-btn" id="thumbprintSealBtn" title="Tap to Seal Forever Promise">
+                        <i class="fas fa-fingerprint"></i>
+                    </button>
+                    <span id="sealStatusLabel" style="margin-top: 12px; font-weight: 700; font-size: 0.85rem; color: var(--accent-gold); letter-spacing: 1px;">
+                        TAP FINGERPRINT TO SEAL PROMISE 💖
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+            Crafted with 3D Love Across The Miles by Navu for Teena Ji ❤️
+        </p>
+        <p>Happy 1st Year (12th Month) Long Distance Anniversary • Distance Means So Little When You Mean Everything (2026)</p>
+    </footer>
+
+    <!-- ==========================================================================
+         BUG-FREE JAVASCRIPT ENGINE
+         ========================================================================== -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        /* Safe LocalStorage Helper */
+        function safeGet(k) {
+            try { return window.localStorage ? localStorage.getItem(k) : null; } catch (e) { return null; }
+        }
+        function safeSet(k, v) {
+            try { if (window.localStorage) localStorage.setItem(k, v); } catch (e) {}
+        }
+
+        /* ------------------------------------------------------------------
+           WEB AUDIO SYNTHESIZER (ROMANTIC CHIMES & MUSIC BOX)
+        ------------------------------------------------------------------ */
+        let audioCtx = null;
+        let isMusicPlaying = false;
+        let musicTimer = null;
+
+        function initAudio() {
+            if (!audioCtx) {
+                const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+                if (AudioContextClass) audioCtx = new AudioContextClass();
+            }
+            if (audioCtx && audioCtx.state === "suspended") {
+                audioCtx.resume();
+            }
+        }
+
+        function playChime(freq, duration) {
+            try {
+                initAudio();
+                if (!audioCtx) return;
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.type = "sine";
+                osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+                gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+                gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+                osc.start();
+                osc.stop(audioCtx.currentTime + duration);
+            } catch (e) {}
+        }
+
+        const melodyNotes = [523.25, 659.25, 783.99, 1046.50, 880.00, 783.99, 659.25, 587.33];
+        let noteIdx = 0;
+
+        const musicToggleBtn = document.getElementById("musicToggleBtn");
+        if (musicToggleBtn) {
+            musicToggleBtn.addEventListener("click", function () {
+                isMusicPlaying = !isMusicPlaying;
+                musicToggleBtn.classList.toggle("playing", isMusicPlaying);
+                if (isMusicPlaying) {
+                    playChime(melodyNotes[0], 0.6);
+                    musicTimer = setInterval(function () {
+                        noteIdx = (noteIdx + 1) % melodyNotes.length;
+                        playChime(melodyNotes[noteIdx], 0.7);
+                    }, 550);
+                } else {
+                    clearInterval(musicTimer);
+                }
+            });
+        }
+
+        /* Universal Modal Helper */
+        const loveModal = document.getElementById("loveModal");
+        const modalTitle = document.getElementById("modalTitle");
+        const modalCustomText = document.getElementById("modalCustomText");
+        const closeModalBtn = document.getElementById("closeModalBtn");
+
+        function showPopup(title, htmlText) {
+            if (modalTitle) modalTitle.innerText = title;
+            if (modalCustomText) modalCustomText.innerHTML = htmlText;
+            if (loveModal) loveModal.classList.add("active");
+            playChime(880, 0.5);
+        }
+        if (closeModalBtn) {
+            closeModalBtn.addEventListener("click", function () {
+                loveModal.classList.remove("active");
+            });
+        }
+        if (loveModal) {
+            loveModal.addEventListener("click", function (e) {
+                if (e.target === loveModal) loveModal.classList.remove("active");
+            });
+        }
+
+        /* ------------------------------------------------------------------
+           1. DAY / NIGHT ROMANTIC MODE TOGGLE
+        ------------------------------------------------------------------ */
+        const body = document.body;
+        const themeToggleBtn = document.getElementById("themeToggleBtn");
+        const themeIcon = document.getElementById("themeIcon");
+
+        function applyTheme(isDay) {
+            if (isDay) {
+                body.classList.add("day-mode");
+                if (themeIcon) themeIcon.className = "fas fa-moon";
+                safeSet("navu_teena_theme", "day");
+            } else {
+                body.classList.remove("day-mode");
+                if (themeIcon) themeIcon.className = "fas fa-sun";
+                safeSet("navu_teena_theme", "night");
+            }
+        }
+
+        if (safeGet("navu_teena_theme") === "day") {
+            applyTheme(true);
+        }
+
+        if (themeToggleBtn) {
+            themeToggleBtn.addEventListener("click", function () {
+                applyTheme(!body.classList.contains("day-mode"));
+                playChime(659.25, 0.3);
+            });
+        }
+
+        /* ------------------------------------------------------------------
+           LIVE AFFECTION REACTION BUTTONS (SEND ROSE, KISS, HUG)
+        ------------------------------------------------------------------ */
+        document.querySelectorAll(".reaction-btn").forEach(function (btn) {
+            btn.addEventListener("click", function (e) {
+                const emoji = btn.getAttribute("data-emoji");
+                const key = btn.getAttribute("data-key");
+                const badge = document.getElementById("count-" + key);
+                if (badge) {
+                    badge.innerText = parseInt(badge.innerText, 10) + 1;
+                }
+                playChime(783.99, 0.35);
+                for (let i = 0; i < 6; i++) {
+                    const flyer = document.createElement("div");
+                    flyer.className = "emoji-flyer";
+                    flyer.innerText = emoji;
+                    flyer.style.left = (e.clientX + (Math.random() * 80 - 40)) + "px";
+                    flyer.style.top = (e.clientY - 20) + "px";
+                    document.body.appendChild(flyer);
+                    setTimeout(function () {
+                        if (flyer.parentNode) flyer.parentNode.removeChild(flyer);
+                    }, 1800);
+                }
+            });
+        });
+
+        /* ------------------------------------------------------------------
+           2. 3D MEN'S WALLET ANIMATION (LONG DISTANCE QUOTES)
+        ------------------------------------------------------------------ */
+        const walletStage = document.getElementById("walletStage");
+        const mensWallet3D = document.getElementById("mensWallet3D");
+        const toggleWalletBtn = document.getElementById("toggleWalletBtn");
+        const boySpeech = document.getElementById("boySpeech");
+        const walletQuoteText = document.getElementById("walletQuoteText");
+
+        const walletQuotes = [
+            "“Shahar alag hain toh kya hua, mere wallet aur mere dil dono me har pal sirf meri Teena Ji rehti hain! ❤️”",
+            "“Jab bhi is long distance me aapki kami mehsoos hoti hai, apna wallet khol kar aapka pyara sa chehra dekh leta hu! 😍”",
+            "“Meelon ki doori bhi kuch nahi kar sakti, kyunki Navu ke wallet me hamesha uski Queen (Teena Ji) ka raaj hai! 👑💖”"
+        ];
+        let quoteIdx = 0;
+
+        function toggleWallet() {
+            const isOpen = walletStage.classList.toggle("wallet-opened");
+            playChime(isOpen ? 880 : 523.25, 0.45);
+            if (isOpen) {
+                toggleWalletBtn.innerHTML = '<i class="fas fa-folder"></i> Close Wallet 💼';
+                boySpeech.innerText = '"Dekha! Hum door hain par mere wallet me hamesha meri Teena Ji ki photo rehti hai! 😍❤️"';
+                walletQuoteText.innerText = walletQuotes[quoteIdx % walletQuotes.length];
+                quoteIdx++;
+                if (window.triggerHeartBurst) window.triggerHeartBurst(18);
+            } else {
+                toggleWalletBtn.innerHTML = '<i class="fas fa-folder-open"></i> Open My Wallet & Pop Photo 💖';
+                boySpeech.innerText = '"Aap door ho toh kya hua Teena Ji! Dekho mere wallet me kaun rehta hai... 💼😍"';
+                walletQuoteText.innerText = '"Button dabao aur dekho meelon door rehkar bhi Navu apne wallet me hamesha kiski tasveer rakhta hai..."';
+            }
+        }
+
+        if (mensWallet3D) mensWallet3D.addEventListener("click", toggleWallet);
+        if (toggleWalletBtn) toggleWalletBtn.addEventListener("click", toggleWallet);
+
+        /* Clickable VIP Cards inside Wallet */
+        const vipCard1 = document.getElementById("vipCard1");
+        const vipCard2 = document.getElementById("vipCard2");
+        if (vipCard1) {
+            vipCard1.addEventListener("click", function (e) {
+                e.stopPropagation();
+                showPopup("✈️ Long Distance Reunion Pass", "<strong>VIP Holder: Teena Soni</strong><br><br>Yeh pass aapko unlimited late-night video calls, surprise gift deliveries, aur jab hum milenge tab 1000 Tight Hugs ka hak deta hai! ❤️");
+            });
+        }
+        if (vipCard2) {
+            vipCard2.addEventListener("click", function (e) {
+                e.stopPropagation();
+                showPopup("👑 Queen Of My Heart", "<strong>Official Royal Certificate:</strong><br><br>Chahe beech me kitne bhi kilometer ka faasla ho, Navu ke dil, dimaag aur wallet par sirf aur sirf <strong>Teena Ji</strong> ka hukm chalta hai! 💖");
+            });
+        }
+
+        /* ------------------------------------------------------------------
+           3. INTERACTIVE 3D FLIP-BOOK ("12 MONTHS LONG DISTANCE DIARY")
+        ------------------------------------------------------------------ */
+        const diaryPages = [
+            {
+                chapter: "PAGE 1 OF 6 • MONTH 1 TO 2",
+                icon: "fa-heart",
+                title: "Do Shahar, Par Ek Hi Dhadkan ✨",
+                text: "“Shuruaat se hi beech me faasle the, par aapki aawaz aur pehli muskurahat ne meelon ki doori ko pal bhar me mita diya, Teena Ji.”"
+            },
+            {
+                chapter: "PAGE 2 OF 6 • MONTH 3 TO 4",
+                icon: "fa-video",
+                title: "Late Night Video Calls & Pyar 📱",
+                text: "“Raat-raat bhar jag kar video call par baatein karna, aur screen par aapko hote huye dekh kar saari thakan bhool jaana — sab kuch jaadu jaisa tha.”"
+            },
+            {
+                chapter: "PAGE 3 OF 6 • MONTH 5 TO 6",
+                icon: "fa-gem",
+                title: "6 Months Of Unbreakable Trust 💎",
+                text: "“Door rehkar bhi hamara bharosa aur pyar har roz 100 guna aur mazboot hota gaya. Aapne har pal mujhe apne sabse kareeb mehsoos karaya.”"
+            },
+            {
+                chapter: "PAGE 4 OF 6 • MONTH 7 TO 8",
+                icon: "fa-moon",
+                title: "Ek Hi Chaand Ke Niche 🌙",
+                text: "“Alag-alag shahar me rehkar bhi ek hi aasman aur ek hi chaand ko dekhna, aur har waqt agli mulaqat ke din ginna.”"
+            },
+            {
+                chapter: "PAGE 5 OF 6 • MONTH 9 TO 10",
+                icon: "fa-wallet",
+                title: "Mere Wallet Aur Dil Ki Maharani 👑",
+                text: "“Aap paas nahi ho par mere wallet me rakhi aapki tasveer har pal mere saath rehti hai. Meri har dua me sirf aapka naam hai.”"
+            },
+            {
+                chapter: "PAGE 6 OF 6 • MONTH 11 TO 12 (1 YEAR!)",
+                icon: "fa-infinity",
+                title: "Happy 1st Anniversary Across Miles! 🎉",
+                text: "“12 Mahine poore huye! Faasle haar gaye aur hamara pyar jeet gaya. Jald hi yeh saari dooriyan hamesha ke liye khatam ho jayengi! ❤️”"
+            }
+        ];
+
+        let currentPage = 0;
+        const bookPageCard = document.getElementById("bookPageCard");
+        const bookChapter = document.getElementById("bookChapter");
+        const bookIcon = document.getElementById("bookIcon");
+        const bookTitle = document.getElementById("bookTitle");
+        const bookContent = document.getElementById("bookContent");
+        const prevPageBtn = document.getElementById("prevPageBtn");
+        const nextPageBtn = document.getElementById("nextPageBtn");
+
+        function turnToPage(newIdx) {
+            if (!bookPageCard) return;
+            playChime(659.25, 0.35);
+            bookPageCard.classList.add("flipping");
+            setTimeout(function () {
+                currentPage = (newIdx + diaryPages.length) % diaryPages.length;
+                const p = diaryPages[currentPage];
+                bookChapter.innerText = p.chapter;
+                bookIcon.innerHTML = '<i class="fas ' + p.icon + '"></i>';
+                bookTitle.innerText = p.title;
+                bookContent.innerText = p.text;
+                bookPageCard.classList.remove("flipping");
+            }, 300);
+        }
+
+        if (nextPageBtn) nextPageBtn.addEventListener("click", function () { turnToPage(currentPage + 1); });
+        if (prevPageBtn) prevPageBtn.addEventListener("click", function () { turnToPage(currentPage - 1); });
+        if (bookPageCard) bookPageCard.addEventListener("click", function () { turnToPage(currentPage + 1); });
+
+        /* Flip cards on mobile tap */
+        document.querySelectorAll(".flip-card-3d").forEach(function (card) {
+            card.addEventListener("click", function () {
+                card.classList.toggle("flipped");
+                playChime(783.99, 0.3);
+            });
+        });
+
+        /* ------------------------------------------------------------------
+           4. SPIN THE WHEEL OF ROMANCE & SCRATCH CARD (LDR EDITION)
+        ------------------------------------------------------------------ */
+        const romanceWheel = document.getElementById("romanceWheel");
+        const spinWheelBtn = document.getElementById("spinWheelBtn");
+        const wheelResultText = document.getElementById("wheelResultText");
+        let wheelDeg = 0;
+
+        const wheelPrizes = [
+            "🍕 Navu Orders Your Favourite Food To Your Doorstep!",
+            "📱 3-Hour Non-Stop Late Night Video Call Date!",
+            "🎁 Surprise Anniversary Gift Parcel Delivery!",
+            "🎬 Online Watch-Party Movie Date Together!",
+            "✈️ 100 Tight Hugs & Forehead Kisses When We Meet!",
+            "🎶 Navu Dedicates & Sings A Romantic Song On Call!",
+            "🍫 Chocolates & Red Roses Delivered To Teena Ji!",
+            "🛍️ Special Online Shopping Treat From Navu!"
+        ];
+
+        if (spinWheelBtn && romanceWheel) {
+            spinWheelBtn.addEventListener("click", function () {
+                spinWheelBtn.disabled = true;
+                const extraSpin = Math.floor(Math.random() * 360) + 1440;
+                wheelDeg += extraSpin;
+                romanceWheel.style.transform = "rotate(" + wheelDeg + "deg)";
+                playChime(523.25, 0.4);
+
+                setTimeout(function () {
+                    const prize = wheelPrizes[Math.floor(Math.random() * wheelPrizes.length)];
+                    if (wheelResultText) wheelResultText.innerText = "🎉 Won: " + prize;
+                    showPopup("🎡 Romantic Wheel Winner!", "Mubarak ho <strong>Teena Ji</strong>!<br><br>Aapne Long Distance Anniversary Wheel me jeeta hai:<br><strong style='color:#fbbf24; font-size:1.2rem;'>" + prize + "</strong><br><br>Navu ko abhi yeh promise pura karna padega! 😍");
+                    spinWheelBtn.disabled = false;
+                }, 3800);
+            });
+        }
+
+        /* Scratch Card Canvas Engine */
+        const scratchCanvas = document.getElementById("scratchCanvas");
+        const resetScratchBtn = document.getElementById("resetScratchBtn");
+
+        function fillScratchFoil() {
+            if (!scratchCanvas || !scratchCanvas.getContext) return;
+            const sCtx = scratchCanvas.getContext("2d");
+            sCtx.globalCompositeOperation = "source-over";
+            const grad = sCtx.createLinearGradient(0, 0, 280, 190);
+            grad.addColorStop(0, "#f59e0b");
+            grad.addColorStop(0.5, "#fde68a");
+            grad.addColorStop(1, "#d97706");
+            sCtx.fillStyle = grad;
+            sCtx.fillRect(0, 0, 280, 190);
+
+            sCtx.fillStyle = "#3b071e";
+            sCtx.font = "bold 16px Outfit, sans-serif";
+            sCtx.textAlign = "center";
+            sCtx.fillText("✨ SCRATCH HERE TEENA JI ✨", 140, 90);
+            sCtx.font = "13px Plus Jakarta Sans, sans-serif";
+            sCtx.fillText("(Rub with Finger or Mouse)", 140, 115);
+        }
+
+        if (scratchCanvas && scratchCanvas.getContext) {
+            fillScratchFoil();
+            const sCtx = scratchCanvas.getContext("2d");
+            let isScratching = false;
+
+            function scratchAt(x, y) {
+                sCtx.globalCompositeOperation = "destination-out";
+                sCtx.beginPath();
+                sCtx.arc(x, y, 24, 0, Math.PI * 2);
+                sCtx.fill();
+            }
+
+            scratchCanvas.addEventListener("mousedown", function () { isScratching = true; });
+            window.addEventListener("mouseup", function () { isScratching = false; });
+            scratchCanvas.addEventListener("mousemove", function (e) {
+                if (!isScratching) return;
+                const r = scratchCanvas.getBoundingClientRect();
+                scratchAt(e.clientX - r.left, e.clientY - r.top);
+            });
+
+            scratchCanvas.addEventListener("touchstart", function (e) {
+                isScratching = true;
+                const r = scratchCanvas.getBoundingClientRect();
+                const t = e.touches[0];
+                scratchAt(t.clientX - r.left, t.clientY - r.top);
+            }, { passive: true });
+            scratchCanvas.addEventListener("touchmove", function (e) {
+                if (!isScratching) return;
+                const r = scratchCanvas.getBoundingClientRect();
+                const t = e.touches[0];
+                scratchAt(t.clientX - r.left, t.clientY - r.top);
+            }, { passive: true });
+            scratchCanvas.addEventListener("touchend", function () { isScratching = false; });
+        }
+
+        if (resetScratchBtn) {
+            resetScratchBtn.addEventListener("click", function () {
+                fillScratchFoil();
+                playChime(659.25, 0.3);
+            });
+        }
+
+        /* ------------------------------------------------------------------
+           5. INTERACTIVE 3D LOVE MINI-GAME ("CATCH THE HEARTS ACROSS MILES")
+        ------------------------------------------------------------------ */
+        const gameArena = document.getElementById("gameArena");
+        const scoreVal = document.getElementById("scoreVal");
+        const levelVal = document.getElementById("levelVal");
+        const loveMeterFill = document.getElementById("loveMeterFill");
+        const gameMessageBox = document.getElementById("gameMessageBox");
+        const startGameBtn = document.getElementById("startGameBtn");
+
+        const twelveMonthMessages = [
+            "💖 Month 1 Secret: Meelon door hote huye bhi pehle hi din se aap mere dil ke sabse kareeb ho!",
+            "🌹 Month 2 Secret: Subah uthte hi phone par aapka 'Good Morning' message dekhna meri sabse badi khushi hai!",
+            "✨ Month 3 Secret: Video call par aapki pyari si muskurahat dekh kar mera sara din ban jata hai!",
+            "👑 Month 4 Secret: Teena Ji, door rehkar bhi aapne mujhe kabhi akela mehsoos nahi hone diya!",
+            "💎 Month 5 Secret: Har raat earphones laga kar aapki aawaz sunte huye sona jannat jaisa lagta hai!",
+            "🍫 Month 6 Secret: Half-year long distance par mujhe yakeen ho gaya ki hamara pyar har faasle se bada hai!",
+            "🌙 Month 7 Secret: Jab aapko miss karta hu toh chaand ko dekh leta hu, kyunki aap bhi usi aasman ke niche ho!",
+            "🦋 Month 8 Secret: Call par aapka thoda sa ruthna aur mera meelon door se aapko manana — mera sabse pyara pal hai!",
+            "🎶 Month 9 Secret: Mere wallet me aapki tasveer aur mere dil ki har dhadkan me sirf 'Teena Ji' ka naam hai!",
+            "🌸 Month 10 Secret: Main har roz calendar me us din ka intezaar karta hu jab main aapko saamne se gale lagaunga!",
+            "🔥 Month 11 Secret: Shahar alag hain par hamari rooh ek hai — duniya ki koi doori hume alag nahi kar sakti!",
+            "🏆 Month 12 (1 YEAR COMPLETE!): Happy 1st Anniversary Meri Jaan! Distance means nothing when you mean everything! ❤️🎉"
+        ];
+
+        let caughtCount = 0;
+
+        function spawnHeartTarget() {
+            if (!gameArena) return;
+            const heart = document.createElement("div");
+            const isGold = Math.random() > 0.72;
+            heart.className = "floating-target-heart" + (isGold ? " golden-bonus" : "");
+            heart.innerHTML = isGold ? '<i class="fas fa-crown"></i>' : '<i class="fas fa-heart"></i>';
+
+            const maxX = Math.max(40, gameArena.clientWidth - 75);
+            const maxY = Math.max(40, gameArena.clientHeight - 75);
+            heart.style.left = Math.floor(Math.random() * maxX) + "px";
+            heart.style.top = Math.floor(Math.random() * maxY) + "px";
+
+            heart.addEventListener("click", function (ev) {
+                ev.stopPropagation();
+                const msgIndex = caughtCount % twelveMonthMessages.length;
+                caughtCount++;
+                playChime(isGold ? 1046.50 : 783.99, 0.35);
+
+                if (scoreVal) scoreVal.innerText = caughtCount;
+                if (levelVal) levelVal.innerText = "Month " + (msgIndex + 1);
+                if (loveMeterFill) {
+                    const pct = Math.min(100, Math.round(((msgIndex + 1) / 12) * 100));
+                    loveMeterFill.style.width = pct + "%";
+                }
+                if (gameMessageBox) {
+                    gameMessageBox.innerText = twelveMonthMessages[msgIndex];
+                    gameMessageBox.style.transform = "scale(1.04)";
+                    setTimeout(function () { gameMessageBox.style.transform = "scale(1)"; }, 220);
+                }
+                heart.style.transform = "scale(1.6)";
+                heart.style.opacity = "0";
+                setTimeout(function () { if (heart.parentNode) heart.parentNode.removeChild(heart); }, 200);
+                spawnHeartTarget();
+
+                if (caughtCount % 12 === 0) {
+                    if (window.triggerHeartBurst) window.triggerHeartBurst(25);
+                    showPopup("🏆 All 12 Months Unlocked Across Miles!", "Wakayi! Aapne meelon ki doori paar karke Navu ke dil ke saare 12 Months ke pyar bhare raaz unlock kar liye hain! Happy 1st Year Anniversary Teena Ji! ❤️👑");
+                }
+            });
+
+            gameArena.appendChild(heart);
+        }
+
+        function resetAndSpawnHearts() {
+            if (!gameArena) return;
+            gameArena.innerHTML = "";
+            for (let i = 0; i < 5; i++) {
+                setTimeout(spawnHeartTarget, i * 160);
+            }
+        }
+
+        if (startGameBtn) startGameBtn.addEventListener("click", resetAndSpawnHearts);
+        resetAndSpawnHearts();
+
+        /* ------------------------------------------------------------------
+           6. 3D PERSPECTIVE TILT ON CARDS
+        ------------------------------------------------------------------ */
+        if (window.matchMedia && window.matchMedia("(pointer: fine)").matches) {
+            document.querySelectorAll(".tilt-card").forEach(function (card) {
+                card.addEventListener("mousemove", function (e) {
+                    const rect = card.getBoundingClientRect();
+                    const cx = rect.width / 2;
+                    const cy = rect.height / 2;
+                    const rx = ((e.clientY - rect.top - cy) / cy) * -10;
+                    const ry = ((e.clientX - rect.left - cx) / cx) * 10;
+                    card.style.transform = "perspective(1000px) rotateX(" + rx.toFixed(2) + "deg) rotateY(" + ry.toFixed(2) + "deg) scale3d(1.03, 1.03, 1.03)";
+                });
+                card.addEventListener("mouseleave", function () {
+                    card.style.transform = "";
+                });
+            });
+        }
+
+        /* ------------------------------------------------------------------
+           7. INTERACTIVE LDR BRIDGE, OPEN-WHEN ENVELOPES & THUMBPRINT SEAL
+        ------------------------------------------------------------------ */
+        const uniteHeartsBtn = document.getElementById("uniteHeartsBtn");
+        const bridgeLineFill = document.getElementById("bridgeLineFill");
+        const planeMoving = document.getElementById("planeMoving");
+        const bridgeStatusText = document.getElementById("bridgeStatusText");
+        let bridgeUnited = false;
+
+        if (uniteHeartsBtn) {
+            uniteHeartsBtn.addEventListener("click", function () {
+                bridgeUnited = !bridgeUnited;
+                if (bridgeUnited) {
+                    if (bridgeLineFill) bridgeLineFill.style.width = "100%";
+                    if (planeMoving) planeMoving.style.left = "88%";
+                    if (bridgeStatusText) bridgeStatusText.innerHTML = "<strong style='color:var(--accent-gold);'>🎉 Distance Melted to 0 km! Navu's Heart is Right Next to Teena Ji! ❤️</strong>";
+                    uniteHeartsBtn.innerHTML = "<i class='fas fa-check-circle'></i> Hearts United Across Miles 💖";
+                    if (window.triggerHeartBurst) window.triggerHeartBurst(25);
+                    showPopup(
+                        "✈️ Virtual Hug Delivered!",
+                        "Navu ke dil se nikli pyar ki flight seedha <strong>Teena Ji</strong> ke paas pahunch gayi hai! 🤗❤️<br><br><em>“Chahe beech me kitne bhi shahar ho, meri har dhadkan aapke paas hi rehti hai!”</em>"
+                    );
+                } else {
+                    if (bridgeLineFill) bridgeLineFill.style.width = "0%";
+                    if (planeMoving) planeMoving.style.left = "12%";
+                    if (bridgeStatusText) bridgeStatusText.innerText = "Button dabao aur dekho kaise hamara pyar meelon ki doori ko 0 km bana deta hai!";
+                    uniteHeartsBtn.innerHTML = "<i class='fas fa-heart'></i> Melt The Distance & Send Virtual Hug 🤗";
+                }
+            });
+        }
+
+        const openWhenData = [
+            {
+                title: "🥺 Jab Meri Bahut Yaad Aaye...",
+                body: "Meri Jaan <strong>Teena Ji</strong>, jab bhi meri kami mehsoos ho toh apni aankhein band karke apne dil par haath rakhna. Main wahi hu! Bas ek call ya message kar dena, main saara kaam chhod kar aapke paas haazir ho jaunga. I Miss You More! ❤️"
+            },
+            {
+                title: "🌙 Jab Raat Ko Neend Na Aaye...",
+                body: "Khidki se bahar chaand ko dekho Teena Ji... main bhi yahan se usi chaand ko dekh kar aapke liye dua kar raha hu. Meri pyari si goodnight kiss aur warm hug aapke takiye ke paas bhej di hai, aaram se so jao meri Queen! 😴💖"
+            },
+            {
+                title: "😊 Jab Aapko Hasna Ho...",
+                body: "Yaad hai jab aapki ek chhoti si hansi dekhne ke liye main kaisi-kaisi pagalpan wali baatein karta hu? Aap jab muskurati ho toh duniya ki sabse khoobsurat ladki lagti ho — isliye abhi ek badi si smile do, kyunki Navu aapko dil ki aankhon se dekh raha hai! 😍✨"
+            },
+            {
+                title: "✈️ Jab Hum Milne Wale Hon...",
+                body: "Wo din meri zindagi ka sabse bada tyohar hoga! 12 mahino ka saara intezaar us ek pal me khatam ho jayega jab main aapko saamne dekhunga aur kas kar gale laga lunga. Tab waqt bhi tham jayega! 💑🎉"
+            }
+        ];
+
+        document.querySelectorAll(".open-when-envelope").forEach(function (envEl) {
+            envEl.addEventListener("click", function () {
+                const idx = parseInt(envEl.getAttribute("data-env"), 10) || 0;
+                const item = openWhenData[idx];
+                if (window.triggerHeartBurst) window.triggerHeartBurst(15);
+                showPopup(item.title, item.body);
+            });
+        });
+
+        const thumbprintSealBtn = document.getElementById("thumbprintSealBtn");
+        const sealStatusLabel = document.getElementById("sealStatusLabel");
+        if (thumbprintSealBtn) {
+            thumbprintSealBtn.addEventListener("click", function () {
+                thumbprintSealBtn.classList.add("scanning");
+                if (sealStatusLabel) sealStatusLabel.innerText = "SCANNING HEARTBEAT & LOCKING PROMISE... 💓";
+                playChime(659.25, 0.4);
+                setTimeout(function () {
+                    playChime(1046.50, 0.6);
+                    if (window.triggerHeartBurst) window.triggerHeartBurst(35);
+                    if (sealStatusLabel) sealStatusLabel.innerText = "✔ FOREVER SOULMATE CONTRACT SEALED! 💍💖";
+                    showPopup(
+                        "💍 Official Soulmate Lock!",
+                        "<strong>Navu ❤️ Teena Ji</strong><br><br>Aapke pyar ki मुहर (Thumbprint Seal) lag chuki hai! 1st Year (12th Month) Anniversary se lekar agle 7 janmo tak yeh rishta aur pyar ab officially <strong>Unbreakable &amp; Forever Locked</strong> hai! 👑🎉"
+                    );
+                }, 900);
+            });
+        }
+
+        /* ------------------------------------------------------------------
+           8. 3D FLOATING HEARTS & SPARKLES BACKGROUND CANVAS
+        ------------------------------------------------------------------ */
+        const canvas = document.getElementById("love-canvas");
+        if (canvas && canvas.getContext) {
+            const ctx = canvas.getContext("2d");
+            let W = canvas.width = window.innerWidth;
+            let H = canvas.height = window.innerHeight;
+            let hearts = [];
+
+            window.addEventListener("resize", function () {
+                W = canvas.width = window.innerWidth;
+                H = canvas.height = window.innerHeight;
+            });
+
+            class HeartParticle {
+                constructor(isBurst) {
+                    this.x = Math.random() * W;
+                    this.y = isBurst ? H + 20 : Math.random() * H;
+                    this.size = Math.random() * 12 + 6;
+                    this.speedY = isBurst ? -(Math.random() * 3.5 + 2) : -(Math.random() * 0.9 + 0.3);
+                    this.speedX = (Math.random() - 0.5) * 1.2;
+                    this.opacity = Math.random() * 0.55 + 0.25;
+                    const colors = ["#ff2a75", "#ff75a0", "#fbbf24", "#c084fc"];
+                    this.color = colors[Math.floor(Math.random() * colors.length)];
+                }
+                update() {
+                    this.y += this.speedY;
+                    this.x += this.speedX;
+                    if (this.y < -30) {
+                        this.y = H + 20;
+                        this.x = Math.random() * W;
+                    }
+                }
+                draw() {
+                    ctx.save();
+                    ctx.translate(this.x, this.y);
+                    ctx.fillStyle = this.color;
+                    ctx.globalAlpha = this.opacity;
+                    ctx.beginPath();
+                    const s = this.size / 15;
+                    ctx.moveTo(0, 3 * s);
+                    ctx.bezierCurveTo(0, 0, -7 * s, 0, -7 * s, 4 * s);
+                    ctx.bezierCurveTo(-7 * s, 8 * s, 0, 11 * s, 0, 15 * s);
+                    ctx.bezierCurveTo(0, 11 * s, 7 * s, 8 * s, 7 * s, 4 * s);
+                    ctx.bezierCurveTo(7 * s, 0, 0, 0, 0, 3 * s);
+                    ctx.fill();
+                    ctx.restore();
+                }
+            }
+
+            for (let i = 0; i < 45; i++) {
+                hearts.push(new HeartParticle(false));
+            }
+
+            window.triggerHeartBurst = function (count) {
+                for (let i = 0; i < count; i++) {
+                    hearts.push(new HeartParticle(true));
+                }
+                if (hearts.length > 110) {
+                    hearts.splice(45, hearts.length - 90);
+                }
+            };
+
+            const showerBtn = document.getElementById("showerHeartsBtn");
+            if (showerBtn) {
+                showerBtn.addEventListener("click", function () {
+                    window.triggerHeartBurst(25);
+                    playChime(1046.50, 0.4);
+                });
+            }
+
+            function animateCanvas() {
+                ctx.clearRect(0, 0, W, H);
+                for (let i = 0; i < hearts.length; i++) {
+                    hearts[i].update();
+                    hearts[i].draw();
+                }
+                requestAnimationFrame(animateCanvas);
+            }
+            animateCanvas();
+        }
+    });
+    </script>
+</body>
+</html>
